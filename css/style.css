@@ -1,0 +1,49 @@
+/*
+ *  General styles
+ */
+a {
+	color: #1568A3;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #00B3D7;
+}
+
+/*
+ *  Styles for the index.html welcome page
+ */
+.welcome-page {
+	background-color: #F2F2F2;
+}
+
+	.welcome-page * {
+		font-family: "pt-sans", Helvetica, Arial, sans-serif;
+	}
+
+	.wrapper {
+		margin: 50px 0 0 50px;
+		width: 800px;
+	}
+
+	.welcome-page h1 {
+		font-size: 80px;
+		font-weight: bold; 
+		margin: 0 0 20px 0;
+		letter-spacing: -1px
+	}
+
+	.welcome-page h2 {
+		font-size: 52px;
+		font-weight: normal;
+		margin: 0 0 20px 0;
+		line-height: 1.2;
+		letter-spacing: -2px;
+	}
+
+	.welcome-page p {
+		font-size: 38px;
+		margin: 0 0 20px 0;
+		line-height: 1.3;
+		letter-spacing: -1px;
+	}
