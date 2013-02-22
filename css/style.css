@@ -1,6 +1,10 @@
 /*
  *  General styles
  */
+body {
+	color: #292724;
+}
+
 a {
 	color: #1568A3;
 	text-decoration: none;
