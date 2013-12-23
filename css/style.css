@@ -9,10 +9,10 @@ body {
 a {
 	color: #1568A3;
 	text-decoration: none;
-	-moz-transition: 0.3s;
-	-webkit-transition: 0.3s;
-	-o-transition: 0.3s;
-	transition: 0.3s;
+	-moz-transition: 0.2s;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
 }
 
 a:hover {
@@ -68,10 +68,10 @@ a:hover {
 }
 	.icons a {
 		color: #CCCCCC;
-		-moz-transition: 0.3s;
-		-webkit-transition: 0.3s;
-		-o-transition: 0.3s;
-		transition: 0.3s;
+		-moz-transition: 0.2s;
+		-webkit-transition: 0.2s;
+		-o-transition: 0.2s;
+		transition: 0.2s;
 	}
 	.icons a:hover {
 		color: #666;
