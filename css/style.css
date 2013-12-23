@@ -4,15 +4,16 @@
 
 body {
 	color: #292724;
+	font-family: "pt-sans", Helvetica, Arial, sans-serif;
 }
 
 a {
 	color: #1568A3;
 	text-decoration: none;
-	-moz-transition: 0.2s;
-	-webkit-transition: 0.2s;
-	-o-transition: 0.2s;
-	transition: 0.2s;
+	-moz-transition: 0.15s;
+	-webkit-transition: 0.15s;
+	-o-transition: 0.15s;
+	transition: 0.15s;
 }
 
 a:hover {
@@ -23,39 +24,32 @@ a:hover {
  *  Styles for the index.html welcome page
  */
 
-.welcome-page {
-	/*background-color: #F2F2F2;*/
+.wrapper {
+	margin: 50px auto;
+	width: 700px;
+	padding-left: 30px;
 }
 
-	.welcome-page * {
-		font-family: "pt-sans", Helvetica, Arial, sans-serif;
-	}
+h1 {
+	font-size: 80px;
+	font-weight: bold; 
+	margin: 0;
+	letter-spacing: -1px
+}
 
-	.wrapper {
-		margin: 50px auto;
-		width: 700px;
-	}
+h2 {
+	font-size: 52px;
+	font-weight: normal;
+	margin: 0 0 30px 0;
+	line-height: 1.2;
+	letter-spacing: -2px;
+}
 
-	.welcome-page h1 {
-		font-size: 80px;
-		font-weight: bold; 
-		margin: 0;
-		letter-spacing: -1px
-	}
-
-	.welcome-page h2 {
-		font-size: 52px;
-		font-weight: normal;
-		margin: 0 0 30px 0;
-		line-height: 1.2;
-		letter-spacing: -2px;
-	}
-
-	.welcome-page p {
-		font-size: 38px;
-		margin: 0 0 10px 0;
-		line-height: 1.3;
-		letter-spacing: -1px;
+p {
+	font-size: 38px;
+	margin: 0 0 10px 0;
+	line-height: 1.3;
+	letter-spacing: -2px;
 	}
 
 /*
@@ -68,11 +62,27 @@ a:hover {
 }
 	.icons a {
 		color: #CCCCCC;
-		-moz-transition: 0.2s;
-		-webkit-transition: 0.2s;
-		-o-transition: 0.2s;
-		transition: 0.2s;
+		-moz-transition: 0.15s;
+		-webkit-transition: 0.15s;
+		-o-transition: 0.15s;
+		transition: 0.15s;
 	}
 	.icons a:hover {
 		color: #666;
 	}
+
+/*
+ *  Media queries
+ */
+
+@media (max-width: 769px) {
+	.wrapper {
+		width: 100%;
+		padding: 0 10px;
+		margin: 30px 0;
+	}
+
+	.icons {
+		font-size: 72px;
+	}
+}
