@@ -9,6 +9,10 @@ body {
 a {
 	color: #1568A3;
 	text-decoration: none;
+	-moz-transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
 }
 
 a:hover {
@@ -28,8 +32,8 @@ a:hover {
 	}
 
 	.wrapper {
-		margin: 50px 0 0 50px;
-		max-width: 700px;
+		margin: 50px auto;
+		width: 700px;
 	}
 
 	.welcome-page h1 {
@@ -57,13 +61,17 @@ a:hover {
 /*
  *  Styles for Icons div
  */
- 
+
 .icons {
 	font-size: 48px;
 	margin-top: 30px;
 }
 	.icons a {
 		color: #CCCCCC;
+		-moz-transition: 0.3s;
+		-webkit-transition: 0.3s;
+		-o-transition: 0.3s;
+		transition: 0.3s;
 	}
 	.icons a:hover {
 		color: #666;
