@@ -3,86 +3,91 @@
  */
 
 body {
-	color: #292724;
-	font-family: "pt-sans", Helvetica, Arial, sans-serif;
+  color: #292724;
+  font-family: "pt-sans", Helvetica, Arial, sans-serif;
 }
 
 a {
-	color: #1568A3;
-	text-decoration: none;
-	-moz-transition: 0.15s;
-	-webkit-transition: 0.15s;
-	-o-transition: 0.15s;
-	transition: 0.15s;
+  color: #1568A3;
+  text-decoration: none;
+  -moz-transition: 0.15s;
+  -webkit-transition: 0.15s;
+  -o-transition: 0.15s;
+  transition: 0.15s;
 }
 
 a:hover {
-	color: #00B3D7;
+  color: #00B3D7;
 }
+
 
 /*
  *  Styles for the index.html welcome page
  */
 
 .wrapper {
-	margin: 50px auto;
-	width: 700px;
-	padding-left: 30px;
+  margin: 50px auto;
+  width: 700px;
+  padding-left: 30px;
 }
 
 h1 {
-	font-size: 80px;
-	font-weight: bold; 
-	margin: 0;
-	letter-spacing: -1px
+  font-size: 80px;
+  font-weight: bold;
+  margin: 0;
+  letter-spacing: -1px
 }
 
 h2 {
-	font-size: 52px;
-	font-weight: normal;
-	margin: 0 0 30px 0;
-	line-height: 1.2;
-	letter-spacing: -2px;
+  font-size: 52px;
+  font-weight: normal;
+  margin: 0 0 30px 0;
+  line-height: 1.2;
+  letter-spacing: -2px;
 }
 
 p {
-	font-size: 38px;
-	margin: 0 0 10px 0;
-	line-height: 1.3;
-	letter-spacing: -2px;
-	}
+  font-size: 38px;
+  margin: 0 0 10px 0;
+  line-height: 1.3;
+  letter-spacing: -2px;
+}
+
 
 /*
  *  Styles for Icons div
  */
 
 .icons {
-	font-size: 48px;
-	margin-top: 30px;
+  font-size: 48px;
+  margin-top: 30px;
 }
-	.icons a {
-		color: #CCCCCC;
-		-moz-transition: 0.15s;
-		-webkit-transition: 0.15s;
-		-o-transition: 0.15s;
-		transition: 0.15s;
-	}
-	.icons a:hover {
-		color: #666;
-	}
+
+.icons a {
+  color: #CCCCCC;
+  -moz-transition: 0.15s;
+  -webkit-transition: 0.15s;
+  -o-transition: 0.15s;
+  transition: 0.15s;
+  margin-right: 15px;
+}
+
+.icons a:hover {
+  color: #666;
+}
+
 
 /*
  *  Media queries
  */
 
 @media (max-width: 769px) {
-	.wrapper {
-		width: 100%;
-		padding: 0 10px;
-		margin: 30px 0;
-	}
-
-	.icons {
-		font-size: 72px;
-	}
+  .wrapper {
+    width: 100%;
+    padding: 0 10px;
+    margin: 30px 0;
+  }
+  .icons {
+    font-size: 72px;
+  }
 }
